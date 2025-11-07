@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>EXCELLENCE ACADEMY</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"/>
+
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+          .error{
+            color: red;
+          }
+        </style>
+    </head>
+
+    <body>
+      
+       <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/Sophisticated_Logo_with_Gold_and_Maroon-removebg-preview.png" height="100px" alt=""></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="success.html">Success</a></li>
+            <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty</a></li>
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="courses.html" id="coursesLink">Courses</a>
+              <div class="hover-modal" id="hoverModal">
+                <ul>
+                  <li>Web Development</li>
+                  <li>Graphic Design</li>
+                  <li>Digital Marketing</li>
+                  <li>Python Programming</li>
+                  <li>UI/UX Design</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+       
+
+        <!-- Hero Section -->
+    <section class="text-light text-center py-5 hero-section">
+      <div class="container" data-aos="fade-up">
+        <h1 class="fw-bold display-5">Contact Us</h1>
+        <p class="lead">Meet our bright stars who turned hard work into excellence.</p>
+      </div>
+    </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Get in Touch</h2>
+        <p class="lead">Have questions about our courses or admissions? Send us a message and we’ll get back to you soon!</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+                 <form action="https://formspree.io/f/xzzjwrdy" method="POST" id="myform">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder=" Enter Your Name" name="name" >
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Enter Your Email"  name="email" >
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Enter Your Subject"  name="subject">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" rows="5" placeholder=" Enter Your Message"  name="message"></textarea>
+                </div>
+                <button class=" btn btn-gold" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+         <!-- Contact Info with Icons -->
+        <div class="col-md-6">
+          <div class="row g-4">
+            <!-- Location -->
+            <div class="col-12">
+              <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5 class="mt-2">Our Location</h5>
+                <p>Near Iqra Uni, Karachi, Pakistan</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="col-12">
+              <div class="info-box">
+              <i class="fa-solid fa-phone"></i>
+                <h5 class="mt-2">Call / WhatsApp</h5>
+                <p>+91-9876543210</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-12">
+              <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <h5 class="mt-2">Email Us</h5>
+                <p>info@excellenceacademy.com</p>
+              </div>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="col-12">
+              <div class="info-box">
+                <i class="fa-solid fa-clock"></i>
+                <h5 class="mt-2">Working Hours</h5>
+                <p>Mon - Sat: 9:00 AM - 7:00 PM<br>Sun: Closed</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- map -->
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7384557824034!2d67.07838437391457!3d24.838616396134018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c1289bd4b71%3A0x73a72e54c9c3014d!2sDefence%20view%20Phase%202%20Defence%20View%20Housing%20Society%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1760878482671!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <!-- Footer -->
+  <footer>
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold">Excellence Academy</h5>
+          <p>Providing top-quality education in Computer and English Language courses. Learn, grow, and achieve excellence with us.</p>
+        </div>
+<!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Contact Info</h6>
+          <p>📍DEFENCE VIEW PHASE 2 viewport, KARACHI</p>
+          <p>📞 +91-9876543210</p>
+          <p>📧 info@excellenceacademy.com</p>
+          <div class="social-icons mt-3">
+            <a href="https://www.instagram.com/"></a><i class="fa-brands fa-instagram"></i>
+            <a href="http://www.whatsapp.com/"></a><i class="fa-brands fa-whatsapp"></i>
+            <a href="http://www.facebook.com/"></a><i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center footer-bottom mt-3">
+        <p class="mb-0">© 2025 Excellence Academy | All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+   <script>
+    const coursesLink = document.getElementById("coursesLink");
+    const hoverModal = document.getElementById("hoverModal");
+
+    // Show modal with fade
+    coursesLink.addEventListener("mouseenter", () => hoverModal.classList.add("show"));
+    coursesLink.addEventListener("mouseleave", () => {
+      setTimeout(() => {
+        if (!hoverModal.matches(":hover")) hoverModal.classList.remove("show");
+      }, 100);
+    });
+    hoverModal.addEventListener("mouseenter", () => hoverModal.classList.add("show"));
+    hoverModal.addEventListener("mouseleave", () => hoverModal.classList.remove("show"));
+  </script>
+        
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+         <!-- jquery cdn -->
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- form validation -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+     <script>
+      jQuery("#myform").validate({
+        rules: {
+            name: {
+              required: true,
+              minlength: 3,
+            },
+            email: {
+                required: true,
+                email: true,
+            },
+
+            subject: {
+              required: true,
+              minlength: 5,
+            },
+             
+            message: {
+              required: true,
+              minlength: 50,
+            },
+
+            }
+        })
+        
+     </script>
+    </body>
+</html>

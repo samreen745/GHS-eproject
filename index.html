@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>EXCELLENCE ACADEMY</title>
+        <link rel="stylesheet" href="images/graduated.png">
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+          <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/Sophisticated_Logo_with_Gold_and_Maroon-removebg-preview.png" height="100px" alt=""></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="success.html">Success</a></li>
+            <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty</a></li>
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="courses.html" id="coursesLink">Courses</a>
+              <div class="hover-modal" id="hoverModal">
+                <ul>
+                  <li>Web Development</li>
+                  <li>Graphic Design</li>
+                  <li>Digital Marketing</li>
+                  <li>Python Programming</li>
+                  <li>UI/UX Design</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+       
+
+        <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Welcome to Excellence Academy</h1>
+      <p class="lead mt-3">Master the Digital World and English Language with Confidence & Clarity.</p>
+      <a href="#courses" class="btn btn-gold btn-lg mt-4">Explore Our Courses</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">About Us</h2>
+      <p class="lead px-3">
+        At <strong>Excellence Academy</strong>, we are dedicated to helping learners build strong foundations 
+        in both technology and communication. Our goal is to equip students with practical computer skills 
+        and fluent English proficiency — essential tools for success in today’s global world.
+      </p>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Courses</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Computer Courses</h5>
+              <p class="card-text">From basic computer literacy to advanced programming, our courses cover MS Office, Tally, Graphic Design, Web Development, and more — empowering you with the skills needed for the digital era.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">English Language Courses</h5>
+              <p class="card-text">Enhance your fluency, grammar, and confidence in English communication. 
+              Whether you’re a student, professional, or job seeker — our spoken and written English programs help you succeed.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ENROLL NOW FORM -->
+  <div class="container">
+    <div class="enroll-form">
+      <h2 class="form-title">Enroll Now </h2>
+      
+          <form action="https://formspree.io/f/xzzjwrdy" method="POST" id="myform">
+
+        <!-- Personal Details -->
+        <h5>Personal Details</h5>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" name="name" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" name="dob" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Gender</label>
+          <select class="form-select" name="gender" required>
+            <option value="">Select...</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label class="form-label">Contact Number</label>
+            <input type="tel" class="form-control" name="phone" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Address</label>
+          <textarea class="form-control" name="address" rows="2" required></textarea>
+        </div>
+
+        <!-- Course Details -->
+        <h5>Course Details</h5>
+        <div class="mb-3">
+          <label class="form-label">Select Course</label>
+          <select class="form-select" name="course" required>
+            <option value="">Select Course...</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>Digital Marketing</option>
+            <option>Python Programming</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Preferred Batch Timing</label>
+          <select class="form-select" name="batch" required>
+            <option value="">Select...</option>
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Evening</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Previous Qualification</label>
+          <input type="text" class="form-control" name="qualification" required>
+        </div>
+
+        <!-- Declaration -->
+        <div class="mb-3">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" required> 
+            I hereby declare that all the information provided is true to the best of my knowledge.
+          </label>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-gold px-5">Submit</button>
+        </div>
+          </form>
+    </div>
+  </div>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+         <form action="https://formspree.io/f/xzzjwrdy" method="POST" id="myform">
+        <h2>Contact Us</h2>
+        <p class="lead">We’d love to hear from you! Reach out for admissions or any course-related queries.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button class="btn btn-gold w-100" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p><strong>📍 Address:</strong> Excellence Academy, Karachi</p>
+        <p><strong>📞 Phone:</strong> +91-9876543210 | <strong>📧 Email:</strong> info@excellenceacademy.com</p>
+      </div>
+    </div>
+  </section>
+
+        </main>
+       
+        <!-- Footer -->
+  <footer>
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold">Excellence Academy</h5>
+          <p>Providing top-quality education in Computer and English Language courses. Learn, grow, and achieve excellence with us.</p>
+        </div>
+
+       <!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Contact Info</h6>
+          <p>📍DEFENCE VIEW PHASE 2 viewport, KARACHI</p>
+          <p>📞 +91-9876543210</p>
+          <p>📧 info@excellenceacademy.com</p>
+          <div class="social-icons mt-3">
+            <a href="https://www.instagram.com/"></a><i class="fa-brands fa-instagram"></i>
+            <a href="http://www.whatsapp.com/"></a><i class="fa-brands fa-whatsapp"></i>
+            <a href="http://www.facebook.com/"></a><i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center footer-bottom mt-3">
+        <p class="mb-0">© 2025 Excellence Academy | All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+   <script>
+    const coursesLink = document.getElementById("coursesLink");
+    const hoverModal = document.getElementById("hoverModal");
+
+    // Show modal with fade
+    coursesLink.addEventListener("mouseenter", () => hoverModal.classList.add("show"));
+    coursesLink.addEventListener("mouseleave", () => {
+      setTimeout(() => {
+        if (!hoverModal.matches(":hover")) hoverModal.classList.remove("show");
+      }, 100);
+    });
+    hoverModal.addEventListener("mouseenter", () => hoverModal.classList.add("show"));
+    hoverModal.addEventListener("mouseleave", () => hoverModal.classList.remove("show"));
+  </script>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+    </body>
+</html>
